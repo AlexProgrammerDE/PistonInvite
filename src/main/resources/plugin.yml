@@ -1,0 +1,14 @@
+name: PistonInvite
+version: '${version}'
+main: net.pistonmaster.pistoninvite.PistonInvite
+api-version: 1.13
+description: Every player can invite two other players!
+permissions:
+  pistoninvite.bypass:
+    description: Bypass the invite limit
+    default: op
+
+commands:
+  invite:
+    description: Invite a player to the server
+    usage: /invite <player>
